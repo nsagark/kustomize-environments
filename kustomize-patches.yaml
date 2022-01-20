@@ -10,7 +10,7 @@ environmentPatches:
      labelSelector:
          env: "env02"
   kustomizePatch: ./environment-2/
- - target:
+- target:
      kind: Environment
      name: environment-3
   kustomizePatch: ./environment-3/
