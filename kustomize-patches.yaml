@@ -1,0 +1,16 @@
+environmentPatches:
+- target:
+     kind: Environment
+     name: environment-1
+     labelSelector:
+         env: "env01"
+  kustomizePatch: ./environment-1/
+- target:
+     kind: Environment
+     labelSelector:
+         env: "env02"
+  kustomizePatch: ./environment-2/
+ - target:
+     kind: Environment
+     name: environment-3
+  kustomizePatch: ./environment-3/
