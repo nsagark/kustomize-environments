@@ -33,7 +33,7 @@ spec:
         emptyDir: {}
       containers:
       - name: "ghost"
-        image: "ghcr.io/nirmata/ghost"
+        image: "ghcr.io/nirmata/ghost:v1.0"
         command: []
         args: []
         ports:
