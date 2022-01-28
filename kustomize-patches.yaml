@@ -28,4 +28,4 @@ environmentPatches:
      kind: Environment
      name: customer-3
      labelSelector:
-         env: "cust02"
+         env: "cust03"
