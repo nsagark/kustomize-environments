@@ -19,13 +19,14 @@ environmentPatches:
      name: customer-1
      labelSelector:
          env: "cust01"
+  kustomizePatch: ./customer-1/         
 - target:
      kind: Environment
-     name: customer-2
      labelSelector:
          env: "cust02"
+  kustomizePatch: ./customer-2/
 - target:
      kind: Environment
      name: customer-3
-     labelSelector:
-         env: "cust03"
+  kustomizePatch: ./customer-3/     
+
