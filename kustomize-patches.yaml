@@ -5,7 +5,8 @@ environmentPatches:
   kustomizePatch: ./environment-1/
 - target:
      kind: Environment
-     name: environment-2       
+     labelSelector:
+         env: "env02"
   kustomizePatch: ./environment-2/
 - target:
      kind: Environment
