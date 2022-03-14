@@ -3,11 +3,13 @@ environmentPatches:
      kind: Environment
      name: environment-1
      labelSelector:
-         env: "env01"
+         cluster-name: "vsphere"
   kustomizePatch: ./environment-1/
 - target:
      kind: Environment
      name: environment-2
+       labelSelector:
+       cluster-name: "vsphere"
   kustomizePatch: ./environment-2/
 - target:
      kind: Environment
@@ -17,7 +19,7 @@ environmentPatches:
      kind: Environment
      name: customer-1
      labelSelector:
-         env: "cust01"
+         cluster-name: "vsphere"
   kustomizePatch: ./customer-1/         
 - target:
      kind: Environment
