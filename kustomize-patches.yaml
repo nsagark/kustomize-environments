@@ -9,17 +9,6 @@ environmentPatches:
   kustomizePatch: ./environment-2/
 - target:
      kind: Environment
-     name: customer-1
-     labelSelector:
-         cluster-name: "vsphere"
-  kustomizePatch: ./customer-1/         
-- target:
-     kind: Environment
-     labelSelector:
-         env: "cust02"
-  kustomizePatch: ./customer-2/
-- target:
-     kind: Environment
-     name: customer-3
-  kustomizePatch: ./customer-3/     
+     name: environment-3     
+  kustomizePatch: ./environment-3/
 
