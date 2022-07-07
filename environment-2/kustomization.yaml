@@ -10,4 +10,4 @@ patchesStrategicMerge:
         nirmata.io/deployment.name: "ghost"
         nirmata.io/component: "ghost"
     spec:
-      replicas: 3       
+      replicas: 1       
