@@ -12,4 +12,17 @@ environmentPatches:
      kind: Environment
      name: environment-3     
   kustomizePatch: ./environment-3/
+- target:
+     kind: Environment
+     labelSelector:
+         env: "env01-vsphere"
+  kustomizePatch: ./environment-1/
+- target:
+     kind: Environment
+     name: environment-2-vsphere-121    
+  kustomizePatch: ./environment-2/
+- target:
+     kind: Environment
+     name: environment-3-vsphere-121     
+  kustomizePatch: ./environment-3/
 
