@@ -7,6 +7,7 @@ metadata:
   labels:
     nirmata.io/deployment.name: "ghost"
     nirmata.io/component: "ghost"
+    nirmata.io/key1: "value1"
 spec:
   minReadySeconds: 60
   progressDeadlineSeconds: 90
